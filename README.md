@@ -600,27 +600,17 @@ docs(readme): bổ sung hướng dẫn deploy Vercel
 
 | Tên | Vai trò | Vùng sở hữu | GitHub | Liên hệ |
 |---|---|---|---|---|
-| <!-- TODO --> | **TV1** — Tech Lead / Tích hợp | File chung, review, merge, deploy | [@username](https://github.com/username) | |
-| <!-- TODO --> | **TV2** — Dữ liệu & Tài khoản | `supabase/`, `app/(auth)/`, `features/subscription/`, `data/foods/` | | |
-| <!-- TODO --> | **TV3** — Dinh dưỡng & AI | `lib/nutrition/`, `lib/ai/`, `app/api/ai/` | | |
-| <!-- TODO --> | **TV4** — Giao diện PT | `app/(pt)/`, `features/clients/`, `features/meal-plan/ui-pt/` | | |
-| <!-- TODO --> | **TV5** — Giao diện khách, Design, QA | `app/(client)/`, `components/ui/`, `features/tracking/` | | |
+| Lê Nguyễn Nhật Quang | **TV1** — Tech Lead / Tích hợp | File chung, review, merge, deploy | [@NhatQuang2288](https://github.com/username) | lenhatquang080420@gmail.com |
+| Nguyễn Minh Quân | **TV2** — Dữ liệu & Tài khoản | `supabase/`, `app/(auth)/`, `features/subscription/`, `data/foods/` | | hi.minhquan2k6@gmail.con |
+| Nguyễn Thị Tường Vy| **TV3** — Dinh dưỡng & AI | `lib/nutrition/`, `lib/ai/`, `app/api/ai/` | | nguyenthituongvy18052006@gmail.com |
+| Trần Văn Nhân| **TV4** — Giao diện PT | `app/(pt)/`, `features/clients/`, `features/meal-plan/ui-pt/` | | vannhanff@gmail.com |
+| Tăng Thành Tài | **TV5** — Giao diện khách, Design, QA | `app/(client)/`, `components/ui/`, `features/tracking/` | | tangthanhtai722006@gmail.com |
 
 ## 24. License & Liên hệ
 
 **License:** Proprietary — bản quyền thuộc nhóm NutriBoost. Không sao chép, phân phối hoặc sử dụng lại mã nguồn khi chưa có văn bản đồng ý. <!-- TODO(nhóm): xác nhận lại trước khi công khai repo -->
 
-**Liên hệ:** nutriboostteam22@gmail.com <!-- TODO(nhóm): bổ sung fanpage / website -->
-
-**Tài liệu liên quan**
-
-| Tài liệu | Nội dung |
-|---|---|
-| [`docs/business-context.md`](docs/business-context.md) | Ngữ cảnh dự án: thị trường, BMC, unit economics, đối thủ |
-| [`docs/so-tay-dieu-phoi-ai.md`](docs/so-tay-dieu-phoi-ai.md) | Cách 5 người điều phối AI: luật vàng, prompt mẫu, cách kiểm tra khi không biết code |
-| [`docs/timeline-mvp.md`](docs/timeline-mvp.md) | Timeline 23 ngày từ con số 0 đến bản chạy thật |
-| [`docs/checklist-kiem-thu.md`](docs/checklist-kiem-thu.md) | Checklist kiểm thử thủ công 40 mục |
-| [`CLAUDE.md`](CLAUDE.md) | Quy ước cho mọi phiên AI — đọc trước khi ra lệnh |
+**Liên hệ:** nutriboostteam22@gmail.com 
 
 ---
 
