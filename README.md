@@ -64,7 +64,6 @@
 - Tới **80% PT bỏ nghề trong 2 năm** vì kiệt sức *(chuẩn quốc tế, TrueCoach 2025 — nhóm đang đo lại trên PT Việt Nam)*.
 - Bối cảnh thị trường: ~25% người trưởng thành Việt Nam thừa cân/béo phì; chuỗi gym lớn thu hẹp từ 105 xuống 88 cơ sở trong chưa đầy một năm, đẩy PT sang tự kinh doanh và kèm online — đúng nhóm cần công cụ độc lập.
 
-> Số liệu chi tiết và cách tính TAM/SAM/SOM: xem [`docs/business-context.md`](docs/business-context.md).
 
 ## 4. Giải pháp
 
@@ -140,13 +139,7 @@ Với MVP 4 tuần và mục tiêu Q4/2026 là **20 PT dùng thử miễn phí**
 
 <!-- TODO(nhóm): điền ngày Release 1 chạy trên khách hàng thật đầu tiên + tên phòng tập thử nghiệm -->
 
-## 7. Demo & Ảnh chụp màn hình
-
-<!-- TODO(nhóm): thay bằng ảnh/GIF thật trong docs/assets/ -->
-
-| | |
-|---|---|
-| ![Dashboard](docs/assets/screenshot-dashboard.png)<br>*Dashboard PT — danh sách khách và trạng thái hôm nay* | ![Meal plan](docs/assets/screenshot-mealplan.png)<br>*Thực đơn 7 ngày do AI sinh, PT duyệt trước khi gửi* |
+## 7. Demo 
 
 - **Demo live:** <!-- TODO(nhóm): https://nutriboost.vercel.app -->
 - **Tài khoản PT dùng thử:** <!-- TODO(nhóm): email / mật khẩu demo -->
@@ -165,10 +158,6 @@ Thuê bao theo **số khách đang kèm**:
 - Diamond = **90.000đ/khách/tháng**, tương đương 1–3% số tiền PT thu từ chính khách đó.
 - ARPU pha trộn giả định (60% Plus / 30% Premium / 10% Diamond) ≈ **970.000đ/tháng**.
 - Mục tiêu unit economics: churn < 5%/tháng · LTV/CAC ≥ 5:1 · hoàn vốn CAC < 4 tháng.
-
-> ⚙️ **Ràng buộc kỹ thuật bắt buộc:** giới hạn 5/10/20 khách là ranh giới nâng gói — logic phân quyền theo số lượng client phải được enforce bằng **Postgres RLS + kiểm tra ở Route Handler**, không chỉ ẩn nút ở frontend. Xem [mục 15 — API](#15-api).
-
-Chi tiết thị trường, unit economics, đối thủ: xem [`docs/business-context.md`](docs/business-context.md).
 
 ---
 
@@ -193,19 +182,16 @@ Chi tiết thị trường, unit economics, đối thủ: xem [`docs/business-co
 | Kiểm thử | **Vitest** + **Playwright** | — | Vitest cho logic dinh dưỡng, Playwright cho luồng người dùng |
 | Hạ tầng | **Vercel** | — | Mỗi Pull Request tự có một URL preview để review bằng mắt |
 
-> **Ghi chú cho nhóm điều phối AI:** dán đúng bảng phiên bản này vào `CLAUDE.md` ở gốc repo. Không có nó, mỗi phiên AI sẽ tự chọn một thư viện khác và năm người sẽ có năm kiểu code.
-
 ## 10. Yêu cầu hệ thống
 
 - **Node.js ≥ 20 LTS** — kiểm tra bằng `node -v`
 - **pnpm ≥ 9** — cài bằng `npm i -g pnpm`
 - **Git** + tài khoản GitHub (khuyến nghị dùng **GitHub Desktop** nếu không quen dòng lệnh)
 - **Tài khoản Supabase** (gói miễn phí đủ cho MVP)
-- **API key Google Gemini** (xem [Biến môi trường](#12-biến-môi-trường))
+- **API key Google Gemini** 
 - **Tài khoản Vercel** (gói Hobby đủ cho MVP)
 - Trình duyệt Chrome hoặc Edge bản mới để chạy và kiểm thử
 
-> Không cần cài Docker, không cần cài Postgres trên máy — database chạy trên Supabase cloud.
 
 ## 11. Cài đặt & chạy local
 
@@ -292,9 +278,6 @@ Chép từ `.env.example` sang `.env.local`. Biến có tiền tố `NEXT_PUBLIC
 
 ## 13. Cấu trúc thư mục
 
-Thư mục được chia theo **vùng sở hữu** — mỗi thành viên chỉ để AI sửa trong vùng của mình. Đây là cơ chế chống xung đột chính của nhóm, chi tiết trong [Sổ tay điều phối AI](docs/so-tay-dieu-phoi-ai.md).
-
-```
 nutriboost/
 ├── app/
 │   ├── (auth)/                     # TV2 — đăng nhập, đăng ký, mã mời
@@ -495,7 +478,6 @@ pnpm test:e2e:ui       # Playwright có giao diện, xem từng bước
 
 - Quy ước đặt tên: `<tên-module>.test.ts` đặt cạnh file được test.
 - Playwright chạy tối thiểu hai kịch bản: **luồng PT** (đăng nhập → thêm khách → sinh thực đơn → duyệt) và **luồng khách** (đăng nhập bằng mã mời → xem thực đơn → log bữa → xem tiến độ).
-- Kiểm thử thủ công dùng [checklist 40 mục](docs/checklist-kiem-thu.md), chạy trên Chrome desktop và Safari iOS thật trước mỗi lần deploy production.
 
 ## 19. Deploy
 
@@ -531,8 +513,6 @@ pnpm test:e2e:ui       # Playwright có giao diện, xem từng bước
 
 ## 20. Quy ước làm việc nhóm
 
-Nhóm gồm 5 người **điều phối AI viết code**, không ai viết tay. Quy trình đầy đủ nằm trong [Sổ tay điều phối AI](docs/so-tay-dieu-phoi-ai.md); phần dưới là bản rút gọn dán ở đây cho tiện tra.
-
 **Đặt tên branch** — có mã WBS để truy ngược được về backlog:
 
 ```
@@ -554,7 +534,6 @@ docs(readme): bổ sung hướng dẫn deploy Vercel
 - Mỗi PR giải quyết đúng một đầu việc, **không quá 400 dòng thay đổi**. AI rất thích sinh PR 2.000 dòng — chia nhỏ trước khi nộp.
 - Chỉ **TV1 review và merge**. Không merge trực tiếp vào `main`.
 - CI (`lint` + `typecheck` + `test`) phải xanh.
-- **Không sửa file ngoài vùng sở hữu của mình** ([mục 13](#13-cấu-trúc-thư-mục)). Trước khi nộp, hỏi lại AI: *"Liệt kê đầy đủ file bạn vừa sửa"* và hoàn tác mọi file lọt ra ngoài.
 - Cửa sổ nộp là **16:15 mỗi ngày**; nhánh sống quá 24 giờ gần như chắc chắn xung đột.
 
 **Code style:** ESLint + Prettier, chạy `pnpm lint` trước khi commit. Cấu hình nằm ở gốc repo, không ai sửa ngoài TV1.
