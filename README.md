@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NutriBoost
 
-## Getting Started
+Professional Client Management & Nutrition Platform dành cho PT / Coach / Nutrition Expert quản lý khách hàng thừa cân/béo phì.
 
-First, run the development server:
+## Stack
+
+Next.js 15 (App Router) · TypeScript 5 · React 19 · Tailwind CSS 4 · shadcn/ui · Supabase (Postgres + Auth + RLS) · TanStack Query 5 · Zustand 5 · Recharts 2 · Vitest · Playwright.
+
+## Bắt đầu
+
+1. Tạo project trên [supabase.com](https://supabase.com), copy `Project URL`, `anon key`, `service_role key`.
+2. Sao chép `.env.local.example` thành `.env.local` và điền 3 giá trị trên.
+3. Cài dependencies và chạy migrations:
+
+```bash
+npm install
+npx supabase link --project-ref <project-ref>
+npx supabase db push
+```
+
+4. Seed dữ liệu (300 món ăn, rồi demo data):
+
+```bash
+npm run seed:foods
+npm run seed:demo
+```
+
+5. Chạy dev server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Lệnh | Mô tả |
+|---|---|
+| `npm run dev` | Chạy dev server |
+| `npm run build` | Build production |
+| `npm run lint` | ESLint |
+| `npm run test` | Unit test + RLS integration test (Vitest) |
+| `npm run test:e2e` | E2E test: flow PT, flow Client, subscription limit (Playwright) |
+| `npm run seed:foods` | Nạp 300 món ăn từ `data/foods/foods.csv` |
+| `npm run seed:demo` | Tạo 1 PT + 5 khách demo (đăng nhập được) kèm 14 ngày lịch sử — xem tài khoản in ra ở cuối log |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Cấu trúc thư mục
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Xem [CLAUDE.md](./CLAUDE.md) để biết chi tiết kiến trúc, quy ước, và các ràng buộc nghiệp vụ (công thức dinh dưỡng, RLS, giới hạn subscription...).

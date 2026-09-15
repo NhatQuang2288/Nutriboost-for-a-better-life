@@ -1,0 +1,301 @@
+name_vi,unit,calo_per_unit,protein_g,carb_g,fat_g,category,source
+Phở bò,1 tô,450,25,55,12,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Phở gà,1 tô,400,24,50,10,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Phở tái,1 tô,420,26,52,11,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Phở chín,1 tô,410,24,52,10,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún bò Huế,1 tô,470,22,58,16,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún chả,1 phần,550,28,60,22,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún riêu,1 tô,400,20,50,13,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún thịt nướng,1 phần,500,26,55,18,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún cá,1 tô,420,24,52,12,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún mắm,1 tô,480,25,55,17,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún đậu mắm tôm,1 phần,520,22,50,26,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Hủ tiếu Nam Vang,1 tô,430,22,55,13,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Hủ tiếu khô,1 phần,450,20,58,14,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Mì Quảng,1 tô,480,24,55,18,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Mì xào giòn,1 phần,550,20,60,24,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Mì gói,1 gói,380,8,52,15,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bánh canh cua,1 tô,420,20,52,15,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bánh canh giò heo,1 tô,460,22,50,20,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Bún ốc,1 tô,380,16,48,14,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Cao lầu,1 tô,450,20,55,16,Phở/Bún/Mì,Viện Dinh dưỡng Quốc gia
+Cơm trắng,1 chén,200,4,44,0.5,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm tấm sườn bì chả,1 phần,750,35,80,32,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm tấm sườn nướng,1 phần,650,32,75,25,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm gà xối mỡ,1 phần,700,30,70,32,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm gà Hải Nam,1 phần,600,28,68,22,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm chiên dương châu,1 phần,600,20,75,22,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm chiên trứng,1 phần,450,12,60,17,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm rang thập cẩm,1 phần,580,22,68,22,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm cháy,1 phần,350,6,55,12,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm âm phủ,1 phần,500,20,60,18,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm niêu,1 phần,550,25,65,18,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm cuộn,1 cuộn,300,10,45,8,Cơm,Viện Dinh dưỡng Quốc gia
+Cơm lam,1 ống,220,5,45,2,Cơm,Viện Dinh dưỡng Quốc gia
+Xôi mặn,1 phần,450,15,60,16,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Xôi gà,1 phần,500,22,62,18,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Xôi xéo,1 phần,420,10,65,12,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Xôi đậu xanh,1 phần,380,9,68,8,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Xôi đậu đen,1 phần,370,9,66,7,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Xôi lạc,1 phần,400,10,60,14,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Xôi gấc,1 phần,400,8,72,9,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo trắng,1 tô,150,3,32,0.5,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo gà,1 tô,250,15,35,5,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo lòng,1 tô,320,18,35,12,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo vịt,1 tô,300,17,34,10,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo cá,1 tô,270,16,35,7,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo sườn,1 tô,280,12,38,8,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo đậu xanh,1 tô,220,7,40,3,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Cháo yến mạch,1 tô,180,6,32,3,Xôi/Cháo,Viện Dinh dưỡng Quốc gia
+Bánh mì thịt,1 ổ,400,15,50,15,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh mì pate,1 ổ,420,13,50,18,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh mì chả cá,1 ổ,380,14,48,14,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh mì trứng,1 ổ,380,14,48,14,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh mì xíu mại,1 ổ,420,16,50,16,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh mì chay,1 ổ,320,8,52,8,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh mì không,1 ổ,250,8,48,2,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh cuốn,1 phần,350,12,55,8,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh cuốn chả,1 phần,420,16,55,14,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh xèo,1 cái,350,12,35,18,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh khọt,5 cái,380,10,40,20,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh bèo,5 cái,300,8,45,9,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh nậm,3 cái,250,6,40,7,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh bột lọc,5 cái,280,8,45,7,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh giò,1 cái,300,10,40,10,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh chưng,1 miếng,250,6,40,7,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh tét,1 miếng,260,6,42,7,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh tráng trộn,1 phần,350,8,45,15,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh tráng nướng,1 cái,250,7,32,10,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh flan,1 cái,150,4,22,5,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh bông lan,1 miếng,220,4,32,8,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh da lợn,1 miếng,180,3,35,3,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh pía,1 cái,320,5,45,14,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh trung thu,1/4 bánh,220,4,28,10,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh quy,5 cái,180,3,25,8,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Bánh su kem,1 cái,180,4,20,9,Bánh mì/Bánh,Viện Dinh dưỡng Quốc gia
+Gỏi cuốn,1 cuốn,100,6,14,2,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Chả giò,3 cuốn,300,10,25,18,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Nem rán,3 cuốn,300,10,25,18,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Bò bía,1 cuốn,120,4,18,3,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Gỏi ngó sen,1 phần,180,10,15,8,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Gỏi xoài,1 phần,150,6,20,5,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Gỏi gà,1 phần,220,20,15,9,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Nộm đu đủ,1 phần,140,5,20,4,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Gỏi cuốn tôm thịt,1 cuốn,110,7,14,2,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Nem chua,1 cái,60,4,4,3,Cuốn/Gỏi,Viện Dinh dưỡng Quốc gia
+Thịt kho tàu,1 phần,350,22,8,25,Thịt,Viện Dinh dưỡng Quốc gia
+Thịt kho trứng,1 phần,380,24,10,26,Thịt,Viện Dinh dưỡng Quốc gia
+Thịt luộc,100g,220,25,0,13,Thịt,Viện Dinh dưỡng Quốc gia
+Thịt heo quay,100g,320,22,2,25,Thịt,Viện Dinh dưỡng Quốc gia
+Thịt bò xào,1 phần,280,25,10,16,Thịt,Viện Dinh dưỡng Quốc gia
+Bò lúc lắc,1 phần,350,28,10,22,Thịt,Viện Dinh dưỡng Quốc gia
+Bò kho,1 phần,380,24,15,24,Thịt,Viện Dinh dưỡng Quốc gia
+Bò né,1 phần,450,28,20,28,Thịt,Viện Dinh dưỡng Quốc gia
+Bò nướng lá lốt,5 cuốn,300,22,5,20,Thịt,Viện Dinh dưỡng Quốc gia
+Sườn nướng,1 phần,400,26,5,30,Thịt,Viện Dinh dưỡng Quốc gia
+Sườn xào chua ngọt,1 phần,380,20,25,20,Thịt,Viện Dinh dưỡng Quốc gia
+Chân giò hầm,1 phần,420,24,10,30,Thịt,Viện Dinh dưỡng Quốc gia
+Gà kho gừng,1 phần,320,26,8,18,Thịt,Viện Dinh dưỡng Quốc gia
+Gà luộc,100g,220,27,0,12,Thịt,Viện Dinh dưỡng Quốc gia
+Gà nướng,1 phần,380,30,5,24,Thịt,Viện Dinh dưỡng Quốc gia
+Gà chiên nước mắm,1 phần,420,28,15,26,Thịt,Viện Dinh dưỡng Quốc gia
+Cánh gà chiên,5 cái,450,25,20,30,Thịt,Viện Dinh dưỡng Quốc gia
+Gà rang muối,1 phần,400,28,10,26,Thịt,Viện Dinh dưỡng Quốc gia
+Vịt quay,100g,330,24,3,25,Thịt,Viện Dinh dưỡng Quốc gia
+Vịt nấu chao,1 phần,400,24,12,28,Thịt,Viện Dinh dưỡng Quốc gia
+Lạp xưởng,1 cây,150,7,3,13,Thịt,Viện Dinh dưỡng Quốc gia
+Chả lụa,100g,180,15,5,12,Thịt,Viện Dinh dưỡng Quốc gia
+Chả quế,100g,200,15,8,12,Thịt,Viện Dinh dưỡng Quốc gia
+Giò thủ,100g,220,16,3,17,Thịt,Viện Dinh dưỡng Quốc gia
+Xúc xích,1 cây,150,6,5,12,Thịt,Viện Dinh dưỡng Quốc gia
+Thịt băm xào,1 phần,250,20,8,16,Thịt,Viện Dinh dưỡng Quốc gia
+Đậu que xào thịt,1 phần,180,10,12,10,Thịt,Viện Dinh dưỡng Quốc gia
+Thịt đông,1 phần,280,18,5,20,Thịt,Viện Dinh dưỡng Quốc gia
+Nem nướng,5 xiên,320,20,10,22,Thịt,Viện Dinh dưỡng Quốc gia
+Thịt xiên nướng,3 xiên,300,22,5,20,Thịt,Viện Dinh dưỡng Quốc gia
+Cá kho tộ,1 phần,300,24,8,18,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cá chiên,1 khúc,250,22,5,16,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cá hấp,1 khúc,180,24,2,7,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cá nướng,1 khúc,220,25,3,11,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cá kho riềng,1 phần,280,22,6,17,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Canh chua cá,1 tô,220,18,18,7,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Tôm rang,100g,180,20,3,9,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Tôm hấp,100g,120,22,1,2,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Tôm chiên,100g,220,18,10,12,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Mực xào,1 phần,220,22,8,11,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Mực chiên giòn,1 phần,320,18,25,18,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Mực nướng,1 phần,200,24,3,9,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cua rang me,1 phần,350,22,20,20,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Ghẹ hấp,1 con,180,25,2,7,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Ốc hấp,1 phần,150,18,5,6,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Nghêu hấp,1 phần,120,16,5,3,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Sò huyết nướng,1 phần,150,17,4,7,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Chả cá Lã Vọng,1 phần,380,22,20,22,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cá viên,5 viên,180,10,8,12,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Chả cá chiên,100g,220,16,10,14,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cá thu kho,1 khúc,280,24,6,18,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Cá basa kho,1 khúc,260,22,7,16,Cá & Hải sản,Viện Dinh dưỡng Quốc gia
+Trứng luộc,1 quả,70,6,1,5,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Trứng ốp la,1 quả,90,6,1,7,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Trứng chiên,1 quả,110,7,2,9,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Trứng hấp,1 chén,150,10,4,10,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Trứng cút lộn,1 quả,50,4,1,3,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Trứng vịt lộn,1 quả,180,13,4,12,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Đậu hũ chiên,100g,180,10,8,12,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Đậu hũ luộc,100g,80,8,3,4,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Đậu hũ sốt cà,1 phần,200,10,14,11,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Đậu hũ nhồi thịt,1 phần,250,15,10,16,Trứng & Đậu hũ,Viện Dinh dưỡng Quốc gia
+Rau muống luộc,1 đĩa,50,3,8,0.5,Rau củ,Viện Dinh dưỡng Quốc gia
+Rau muống xào tỏi,1 đĩa,120,3,8,8,Rau củ,Viện Dinh dưỡng Quốc gia
+Cải xanh luộc,1 đĩa,40,3,6,0.3,Rau củ,Viện Dinh dưỡng Quốc gia
+Cải thìa xào,1 đĩa,100,3,7,7,Rau củ,Viện Dinh dưỡng Quốc gia
+Bắp cải luộc,1 đĩa,45,2,9,0.2,Rau củ,Viện Dinh dưỡng Quốc gia
+Bắp cải xào,1 đĩa,110,3,9,7,Rau củ,Viện Dinh dưỡng Quốc gia
+Su su xào,1 đĩa,90,2,8,6,Rau củ,Viện Dinh dưỡng Quốc gia
+Bông cải xanh luộc,1 đĩa,55,4,10,0.5,Rau củ,Viện Dinh dưỡng Quốc gia
+Đậu bắp luộc,1 đĩa,45,2,9,0.3,Rau củ,Viện Dinh dưỡng Quốc gia
+Cà tím nướng,1 đĩa,90,2,15,3,Rau củ,Viện Dinh dưỡng Quốc gia
+Cà pháo muối,1 chén,30,1,5,0.5,Rau củ,Viện Dinh dưỡng Quốc gia
+Dưa leo,1 quả,20,1,4,0.2,Rau củ,Viện Dinh dưỡng Quốc gia
+Salad rau trộn,1 đĩa,120,3,10,8,Rau củ,Viện Dinh dưỡng Quốc gia
+Khoai tây chiên,1 phần,320,4,40,16,Rau củ,Viện Dinh dưỡng Quốc gia
+Khoai tây luộc,100g,90,2,20,0.2,Rau củ,Viện Dinh dưỡng Quốc gia
+Khoai lang luộc,1 củ,130,2,30,0.2,Rau củ,Viện Dinh dưỡng Quốc gia
+Bắp luộc,1 trái,150,5,32,1.5,Rau củ,Viện Dinh dưỡng Quốc gia
+Nấm xào,1 đĩa,90,4,10,5,Rau củ,Viện Dinh dưỡng Quốc gia
+Giá đỗ xào,1 đĩa,70,3,8,3,Rau củ,Viện Dinh dưỡng Quốc gia
+Măng xào,1 đĩa,100,3,12,5,Rau củ,Viện Dinh dưỡng Quốc gia
+Bí đỏ luộc,1 đĩa,60,2,14,0.2,Rau củ,Viện Dinh dưỡng Quốc gia
+Bầu luộc,1 đĩa,35,1,7,0.2,Rau củ,Viện Dinh dưỡng Quốc gia
+Canh chua,1 tô,150,10,15,5,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Canh rau ngót thịt băm,1 tô,120,10,8,5,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Canh bí đỏ,1 tô,100,4,15,3,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Canh cải thịt,1 tô,110,9,7,5,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Canh mồng tơi,1 tô,90,6,8,3,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Canh khổ qua nhồi thịt,1 tô,180,14,10,9,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Canh rong biển,1 tô,80,6,8,2,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Canh xương hầm,1 tô,200,15,10,11,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Súp cua,1 chén,150,10,15,5,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Súp gà ngô,1 chén,160,10,18,5,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Lẩu thái,1 phần,400,25,20,22,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Lẩu bò,1 phần,450,30,15,28,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Lẩu gà lá é,1 phần,400,28,15,24,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Lẩu hải sản,1 phần,380,26,18,20,Canh/Súp,Viện Dinh dưỡng Quốc gia
+Chuối,1 quả,105,1,27,0.3,Trái cây,Viện Dinh dưỡng Quốc gia
+Táo,1 quả,95,0.5,25,0.3,Trái cây,Viện Dinh dưỡng Quốc gia
+Cam,1 quả,60,1,15,0.2,Trái cây,Viện Dinh dưỡng Quốc gia
+Quýt,1 quả,45,0.7,12,0.2,Trái cây,Viện Dinh dưỡng Quốc gia
+Bưởi,1 múi lớn,40,0.5,10,0.1,Trái cây,Viện Dinh dưỡng Quốc gia
+Xoài,1 quả,150,1,38,0.6,Trái cây,Viện Dinh dưỡng Quốc gia
+Dứa,1 lát,50,0.5,13,0.1,Trái cây,Viện Dinh dưỡng Quốc gia
+Đu đủ,1 phần,120,2,30,0.4,Trái cây,Viện Dinh dưỡng Quốc gia
+Dưa hấu,1 phần,90,2,22,0.3,Trái cây,Viện Dinh dưỡng Quốc gia
+Dưa lưới,1 phần,80,2,19,0.3,Trái cây,Viện Dinh dưỡng Quốc gia
+Nho,1 chùm nhỏ,100,1,26,0.3,Trái cây,Viện Dinh dưỡng Quốc gia
+Thanh long,1 quả,100,1.5,22,0.4,Trái cây,Viện Dinh dưỡng Quốc gia
+Mãng cầu,1 quả,150,2,35,0.5,Trái cây,Viện Dinh dưỡng Quốc gia
+Sầu riêng,1 múi,150,2,26,5,Trái cây,Viện Dinh dưỡng Quốc gia
+Chôm chôm,5 quả,65,0.5,16,0.2,Trái cây,Viện Dinh dưỡng Quốc gia
+Nhãn,10 quả,60,0.6,15,0.1,Trái cây,Viện Dinh dưỡng Quốc gia
+Vải,10 quả,66,0.8,16,0.4,Trái cây,Viện Dinh dưỡng Quốc gia
+Măng cụt,3 quả,90,0.7,22,0.6,Trái cây,Viện Dinh dưỡng Quốc gia
+Dâu tây,10 quả,40,0.8,9,0.3,Trái cây,Viện Dinh dưỡng Quốc gia
+Bơ,1/2 quả,160,2,9,15,Trái cây,Viện Dinh dưỡng Quốc gia
+Ổi,1 quả,60,2,13,0.5,Trái cây,Viện Dinh dưỡng Quốc gia
+Lê,1 quả,100,0.6,27,0.2,Trái cây,Viện Dinh dưỡng Quốc gia
+Kiwi,1 quả,45,0.8,11,0.4,Trái cây,Viện Dinh dưỡng Quốc gia
+Việt quất,1 chén,85,1,21,0.5,Trái cây,Viện Dinh dưỡng Quốc gia
+Cherry,10 quả,50,1,12,0.2,Trái cây,Viện Dinh dưỡng Quốc gia
+Sữa đậu nành,1 ly,120,7,12,4,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sữa tươi không đường,1 ly,120,7,9,6,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sữa tươi có đường,1 ly,150,7,17,6,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sữa chua,1 hũ,100,4,15,2.5,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sữa chua uống,1 chai,110,3,20,1.5,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Cà phê đen,1 ly,15,0.5,3,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Cà phê sữa,1 ly,150,3,20,6,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Cà phê muối,1 ly,160,3,22,6,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Trà đá,1 ly,5,0,1,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Trà đường,1 ly,80,0,20,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Trà sữa trân châu,1 ly,350,4,60,10,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Trà sữa ít đường,1 ly,280,4,48,9,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Trà chanh,1 ly,90,0,22,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Trà đào,1 ly,150,0,36,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước ép cam,1 ly,110,2,26,0.3,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước ép táo,1 ly,115,0.3,28,0.3,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước ép cà rốt,1 ly,95,2,22,0.4,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước ép dứa,1 ly,130,0.8,32,0.3,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sinh tố bơ,1 ly,300,4,30,18,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sinh tố xoài,1 ly,220,2,50,1,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sinh tố dâu,1 ly,180,2,40,1,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước dừa,1 quả,60,1,14,0.5,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước mía,1 ly,180,0,45,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước sâm,1 ly,60,0,15,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Chè đậu xanh,1 chén,200,6,38,3,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Chè đậu đỏ,1 chén,210,6,40,3,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Chè bưởi,1 chén,220,3,45,3,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Chè ba màu,1 chén,250,4,48,5,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Chè khúc bạch,1 chén,220,4,35,7,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Sương sáo,1 chén,120,1,28,0.5,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Rau má,1 ly,90,1,20,0.3,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Nước ngọt có gas,1 lon,140,0,35,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Bia,1 lon,150,1.5,13,0,Sữa & Đồ uống,Viện Dinh dưỡng Quốc gia
+Bắp xào,1 phần,220,4,30,10,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Khô bò,50g,180,20,6,9,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Khô gà,50g,150,18,8,5,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Snack khoai tây,1 gói nhỏ,150,2,15,9,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Bánh tráng trộn khô gà,1 phần,380,10,48,17,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Cá viên chiên,5 viên,220,10,12,15,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Bò bía ngọt,1 cuốn,90,1,18,1,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Kem,1 cây,150,2,20,7,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Kem ly,1 ly,250,4,30,12,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Chocolate,1 thanh nhỏ,150,2,17,8,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Kẹo,5 viên,100,0,25,0,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Hạt điều,30g,170,5,9,14,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Hạt hạnh nhân,30g,170,6,6,15,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Đậu phộng rang,30g,170,7,5,15,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Hạt dưa,30g,160,6,5,14,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Mực khô,50g,180,25,3,7,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Bỏng ngô,1 túi nhỏ,150,3,20,7,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Bánh quy giòn,5 cái,150,2,22,6,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Ô mai,5 quả,100,1,24,0.5,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Mứt dừa,5 miếng,180,1,25,9,Ăn vặt,Viện Dinh dưỡng Quốc gia
+Nước mắm,1 muỗng canh,10,1,1,0,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Nước tương,1 muỗng canh,10,1,1,0,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Tương ớt,1 muỗng canh,15,0,4,0,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Sốt mayonnaise,1 muỗng canh,90,0,1,10,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Dầu ăn,1 muỗng canh,120,0,0,14,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Bơ đậu phộng,1 muỗng canh,95,4,3,8,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Đường,1 muỗng canh,50,0,13,0,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Muối vừng,1 muỗng canh,45,2,2,4,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Sốt me,1 muỗng canh,20,0,5,0,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Mắm nêm,1 muỗng canh,15,2,1,0.5,Gia vị/Dầu mỡ,Viện Dinh dưỡng Quốc gia
+Bún tươi,100g,110,2,25,0.2,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Bánh phở,100g,110,2,24,0.2,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Miến,100g,190,0.5,46,0.2,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Yến mạch,50g,190,7,33,3.5,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Ngũ cốc ăn sáng,50g,190,4,40,2,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Bánh mì sandwich,2 lát,150,5,28,2,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Bánh mì nguyên cám,2 lát,140,6,24,2,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Khoai môn luộc,100g,110,1.5,26,0.2,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Sắn luộc,100g,160,1.4,38,0.3,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Đậu xanh nấu,100g,150,7,27,0.5,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Đậu đen nấu,100g,140,8,25,0.5,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Đậu phộng luộc,100g,180,8,15,11,Ngũ cốc/Tinh bột,Viện Dinh dưỡng Quốc gia
+Đậu hũ chay xào rau,1 phần,180,10,15,9,Món chay,Viện Dinh dưỡng Quốc gia
+Chả chay,100g,150,10,12,7,Món chay,Viện Dinh dưỡng Quốc gia
+Cơm chay thập cẩm,1 phần,450,12,70,14,Món chay,Viện Dinh dưỡng Quốc gia
+Bún chay,1 tô,350,10,60,8,Món chay,Viện Dinh dưỡng Quốc gia
+Phở chay,1 tô,380,10,65,8,Món chay,Viện Dinh dưỡng Quốc gia
+Pizza,1 miếng,285,12,36,10,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Hamburger,1 cái,350,17,35,15,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Gà rán,1 miếng,320,20,15,20,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Khoai tây chiên (fastfood),1 phần vừa,340,4,44,16,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Hotdog,1 cái,290,10,25,17,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Mì Ý sốt bò băm,1 phần,450,20,55,17,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Mì Ý sốt kem,1 phần,500,15,55,25,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Sushi cuộn,6 miếng,280,10,45,6,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Sashimi cá hồi,100g,180,20,0,11,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Gyoza,5 cái,220,8,25,10,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Kimbap,1 phần,320,10,50,9,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Tokbokki,1 phần,350,8,60,9,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia
+Cơm cà ri Nhật,1 phần,550,18,70,22,Đồ ăn nhanh,Viện Dinh dưỡng Quốc gia

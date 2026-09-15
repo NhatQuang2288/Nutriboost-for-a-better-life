@@ -1,0 +1,19 @@
+-- Demo data (spec section 38: 1 PT + 5 clients + 14 ngày lịch sử).
+--
+-- Không seed bằng INSERT thẳng vào auth.users ở đây: auth.users cần đúng
+-- format mã hoá mật khẩu + bảng auth.identities đi kèm mà GoTrue quản lý
+-- nội bộ, và cấu trúc này thay đổi theo phiên bản Supabase — một INSERT
+-- SQL thủ công rất dễ tạo ra tài khoản trông hợp lệ nhưng không đăng nhập
+-- được, mà không có cách nào kiểm chứng trước khi thật sự thử đăng nhập.
+--
+-- Thay vào đó, chạy:
+--
+--   npm run seed:demo
+--
+-- (scripts/seed-demo.ts) — dùng Supabase Admin API để tạo tài khoản PT +
+-- 5 khách hàng thật (đăng nhập được ngay), rồi seed 14 ngày meal_logs +
+-- progress_logs bằng chính lib/nutrition/ của app nên số liệu luôn khớp
+-- công thức thật, không lệch với logic production.
+--
+-- Yêu cầu chạy trước: `npm run seed:foods` (300 món ăn — client_id các
+-- bữa ăn demo tham chiếu tới food_id thật trong bảng foods).
