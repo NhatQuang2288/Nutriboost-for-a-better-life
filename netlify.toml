@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+
+[build.environment]
+  # Next.js's build-time env-var inlining writes a snapshot of process.env
+  # into its webpack/Turbopack cache directory for faster rebuilds — this
+  # includes SUPABASE_SERVICE_ROLE_KEY even though no Edge-runtime code
+  # actually imports lib/supabase/admin.ts (verified: only Node-runtime API
+  # routes do, now pinned with `export const runtime = "nodejs"`). Netlify's
+  # secret scanner flags that cache snapshot as a leak. Scoping the omission
+  # to the cache path (not the key everywhere) keeps the scanner fully
+  # active on the real deploy output — only this internal build artifact,
+  # which Netlify never serves to visitors, is skipped.
+  SECRETS_SCAN_OMIT_PATHS = ".netlify/.next/cache/**,.next/cache/**"

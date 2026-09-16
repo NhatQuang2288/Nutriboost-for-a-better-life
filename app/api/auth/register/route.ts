@@ -5,6 +5,10 @@ import { apiError, validationError, serverError } from "@/lib/api/error";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
+// Explicit: this route touches SUPABASE_SERVICE_ROLE_KEY and must never be
+// bundled for the Edge runtime (which middleware.ts uses).
+export const runtime = "nodejs";
+
 const DEFAULT_TIER_MAX_CLIENTS = 5; // tier "plus"
 
 export async function POST(request: NextRequest) {

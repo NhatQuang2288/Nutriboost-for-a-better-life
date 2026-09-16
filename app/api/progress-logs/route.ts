@@ -6,6 +6,10 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { calculateNutritionTargets } from "@/lib/nutrition";
 import { todayInVietnam, vietnamDayRangeUtc } from "@/lib/datetime/vn";
 
+// Explicit: this route touches SUPABASE_SERVICE_ROLE_KEY and must never be
+// bundled for the Edge runtime (which middleware.ts uses).
+export const runtime = "nodejs";
+
 async function resolveOwnClient(
   supabase: Awaited<ReturnType<typeof createClient>>,
   userId: string,

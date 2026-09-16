@@ -9,17 +9,11 @@ export async function POST(request: NextRequest) {
   if (!parsed.success) return validationError(parsed.error);
 
   const { email, password } = parsed.data;
-
-  // TEMP DIAGNOSTIC — remove once the Netlify login issue is confirmed fixed.
-  console.log("[login-debug] SUPABASE_URL set:", !!process.env.NEXT_PUBLIC_SUPABASE_URL);
-  console.log("[login-debug] ANON_KEY length:", process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.length ?? 0);
-
   const supabase = await createClient();
 
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
 
   if (error) {
-    console.error("[login-debug] raw supabase error:", error.status, error.message);
     const mapped = mapSupabaseAuthError(error.message);
     return apiError(mapped.code, mapped.message, mapped.status);
   }

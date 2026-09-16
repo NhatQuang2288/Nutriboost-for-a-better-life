@@ -5,6 +5,10 @@ import { apiError, notFound, validationError, serverError } from "@/lib/api/erro
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
+// Explicit: this route touches SUPABASE_SERVICE_ROLE_KEY and must never be
+// bundled for the Edge runtime (which middleware.ts uses).
+export const runtime = "nodejs";
+
 export async function POST(
   request: NextRequest,
   { params }: { params: Promise<{ code: string }> },

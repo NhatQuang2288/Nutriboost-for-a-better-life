@@ -2,6 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { apiError, notFound } from "@/lib/api/error";
 import { createAdminClient } from "@/lib/supabase/admin";
 
+// Explicit: this route touches SUPABASE_SERVICE_ROLE_KEY and must never be
+// bundled for the Edge runtime (which middleware.ts uses).
+export const runtime = "nodejs";
+
 export async function GET(
   _request: NextRequest,
   { params }: { params: Promise<{ code: string }> },
