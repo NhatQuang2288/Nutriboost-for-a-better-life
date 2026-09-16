@@ -580,7 +580,7 @@ docs(readme): bổ sung hướng dẫn deploy Vercel
 | Tên | Vai trò | Vùng sở hữu | GitHub | Liên hệ |
 |---|---|---|---|---|
 | Lê Nguyễn Nhật Quang | **TV1** — Tech Lead / Tích hợp | File chung, review, merge, deploy | [@NhatQuang2288](https://github.com/username) | lenhatquang080420@gmail.com |
-| Nguyễn Minh Quân | **TV2** — Dữ liệu & Tài khoản | `supabase/`, `app/(auth)/`, `features/subscription/`, `data/foods/` | | hi.minhquan2k6@gmail.con |
+| Nguyễn Minh Quân | **TV2** — Dữ liệu & Tài khoản | `supabase/`, `app/(auth)/`, `features/subscription/`, `data/foods/` | | hi.minhquan2k6@gmail.com |
 | Nguyễn Thị Tường Vy| **TV3** — Dinh dưỡng & AI | `lib/nutrition/`, `lib/ai/`, `app/api/ai/` | | nguyenthituongvy18052006@gmail.com |
 | Trần Văn Nhân| **TV4** — Giao diện PT | `app/(pt)/`, `features/clients/`, `features/meal-plan/ui-pt/` | | vannhanff@gmail.com |
 | Tăng Thành Tài | **TV5** — Giao diện khách, Design, QA | `app/(client)/`, `components/ui/`, `features/tracking/` | | tangthanhtai722006@gmail.com |
