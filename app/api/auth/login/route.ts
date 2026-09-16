@@ -15,7 +15,9 @@ export async function POST(request: NextRequest) {
 
   if (error) {
     const mapped = mapSupabaseAuthError(error.message);
-    return apiError(mapped.code, mapped.message, mapped.status);
+    // TEMP DIAGNOSTIC: surface the raw message directly in the toast so we
+    // don't need to dig through Netlify function logs. Remove once fixed.
+    return apiError(mapped.code, `${mapped.message} [DEBUG: ${error.status} ${error.message}]`, mapped.status);
   }
   if (!data.user) return serverError();
 
